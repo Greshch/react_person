@@ -1,7 +1,7 @@
 import React from 'react';
 import './Person.scss';
 
-const Person = ({ person }) => {
+export const Person = ({ person }) => {
   let parnterStatus = null;
 
   if (person.isMarried) {
@@ -20,5 +20,3 @@ const Person = ({ person }) => {
     </section>
   );
 };
-
-export default Person;
